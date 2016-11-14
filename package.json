@@ -1,0 +1,18 @@
+{
+  "name": "markdown",
+  "version": "0.1.0",
+  "description": "Markdown as a Service - Convert Markdown to HTML, or use in a frame",
+  "author": "stdlib <keith@stdlib.com>",
+  "main": "f/parser/index.js",
+  "dependencies": {
+    "highlight.js": "^9.8.0",
+    "marked": "^0.3.6"
+  },
+  "private": true,
+  "stdlib": {
+    "name": "stdlib/markdown",
+    "defaultFunction": "parser",
+    "timeout": 10000,
+    "publish": true
+  }
+}

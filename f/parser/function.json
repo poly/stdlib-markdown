@@ -1,0 +1,15 @@
+{
+  "name": "parser",
+  "description": "Main function for markdown conversion",
+  "args": [],
+  "kwargs": {
+    "doc": "Document Mode - output includes stylesheet and script for standalone HTML document",
+    "md": "[String] Markdown contents to convert to HTML",
+    "css": "[String] Custom stylesheet declaration for Document Mode"
+  },
+  "http": {
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8"
+    }
+  }
+}
